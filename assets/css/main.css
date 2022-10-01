@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "andybold";
+  src: url("fonts/andyb-webfont.woff2") format("woff2"), url("fonts/andyb-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "andybold", sans-serif;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
 .header {
   margin: 0 16rem;
   justify-content: center;
@@ -5,20 +19,81 @@
 }
 .header h1 {
   text-align: center;
+  padding: 2rem 0;
+  margin-bottom: 0;
+}
+.header p {
+  font-size: 1.2rem;
 }
 
 .main-world {
+  background-image: url(../img/main-world2.jpg);
   text-align: center;
   border: 1px solid black;
   margin-bottom: 4rem;
+  color: white;
+}
+.main-world h3 {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.main-world p {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.main-world .btn {
+  padding: 0.3rem 5rem;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 .secret-seeds {
   text-align: center;
+  height: 45rem;
+}
+.secret-seeds h3 {
+  margin-top: 1rem;
 }
 .secret-seeds .row {
   margin: 3rem;
 }
 .secret-seeds .col-lg-4 {
   border: 1px solid black;
+  background-color: rgb(180, 180, 180);
+}
+.secret-seeds img {
+  display: block;
+  margin: 3rem auto;
+}
+.secret-seeds .btn {
+  padding: 0.3rem 3rem;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.container-fluid {
+  padding: 0;
+  position: relative;
+  z-index: -99;
+}
+.container-fluid .bg-image {
+  width: 100%;
+}
+
+.seedCompleted {
+  border: 1px solid gold;
+  background-color: gold;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 1px;
+  background-color: rgb(180, 180, 180);
+}
+footer p:first-of-type {
+  padding-top: 1rem;
+  margin-bottom: 0;
+}
+footer a {
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
