@@ -1,0 +1,30 @@
+.header{
+
+    margin: 0 16rem;
+    justify-content: center;
+    margin-bottom: 4rem;
+
+    h1{
+        text-align: center;
+    }
+}
+
+.main-world{
+        text-align: center;
+        border: 1px solid black;
+        margin-bottom: 4rem;
+}
+
+.secret-seeds{
+    text-align: center;
+
+    .row{
+        margin: 3rem;
+    }
+
+    .col-lg-4{
+        border: 1px solid black;
+    }
+
+}
+
