@@ -151,7 +151,24 @@ footer{
 
 @media (max-width: 767px){
     .secret-seeds{
-        height: 148rem;
+        height: 162rem;
+
+        #not-the-bees{
+            margin-top: 3rem;
+        }
+
+        #celebration-mk10{
+            margin-top: 3rem;
+        }
+
+        #no-traps{
+            margin-top: 3rem;
+        }
+
+        #zenith{
+            margin-top: 3rem;
+        }
+
     }
 
     .header{
@@ -164,7 +181,7 @@ footer{
 
 @media (max-width: 460px){
     .secret-seeds{
-        height: 170rem;
+        height: 177rem;
 
         .btn{
             font-size: 0.9rem;
@@ -181,7 +198,22 @@ footer{
 
     footer{
         font-size: 0.5rem;
-    }
+    }    
+}
 
-    
+// MAIN WORLD STYLES //
+
+section{
+    h3{
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
+
+.checkList{
+    list-style-type: none;
+
+    div{
+        display: inline-block;
+    }
 }
