@@ -119,7 +119,19 @@ footer a {
 }
 @media (max-width: 767px) {
   .secret-seeds {
-    height: 148rem;
+    height: 162rem;
+  }
+  .secret-seeds #not-the-bees {
+    margin-top: 3rem;
+  }
+  .secret-seeds #celebration-mk10 {
+    margin-top: 3rem;
+  }
+  .secret-seeds #no-traps {
+    margin-top: 3rem;
+  }
+  .secret-seeds #zenith {
+    margin-top: 3rem;
   }
   .header {
     margin: 0 10rem;
@@ -130,7 +142,7 @@ footer a {
 }
 @media (max-width: 460px) {
   .secret-seeds {
-    height: 170rem;
+    height: 177rem;
   }
   .secret-seeds .btn {
     font-size: 0.9rem;
@@ -144,4 +156,15 @@ footer a {
   footer {
     font-size: 0.5rem;
   }
+}
+section h3 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.checkList {
+  list-style-type: none;
+}
+.checkList div {
+  display: inline-block;
 }/*# sourceMappingURL=main.css.map */
