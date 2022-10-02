@@ -101,8 +101,16 @@ body{
 }
 
 .seedCompleted{
-    border: 1px solid gold;
-    background-color: gold;
+    
+    .btn{
+        background-color: green;
+        border: 1px solid green;
+
+        &:hover{
+            background-color: rgb(30, 167, 30);
+            border: 1px solid rgb(30, 167, 30);
+        }
+    }
 }
 
 footer{
@@ -118,4 +126,13 @@ footer{
     a{
         text-decoration: none;
     }
+}
+
+// media querys
+
+@media (max-width: 1200px){
+    .secret-seeds{
+        height: 58rem;
+    }
+
 }
