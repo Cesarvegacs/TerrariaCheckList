@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-  margin: 0 16rem;
+  margin: 0 12rem;
   justify-content: center;
   margin-bottom: 4rem;
 }
@@ -105,5 +105,43 @@ footer a {
 @media (max-width: 1200px) {
   .secret-seeds {
     height: 58rem;
+  }
+}
+@media (max-width: 991px) {
+  .secret-seeds {
+    height: 71rem;
+  }
+}
+@media (max-width: 991px) {
+  .secret-seeds {
+    height: 71rem;
+  }
+}
+@media (max-width: 767px) {
+  .secret-seeds {
+    height: 148rem;
+  }
+  .header {
+    margin: 0 10rem;
+  }
+  .header p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 460px) {
+  .secret-seeds {
+    height: 170rem;
+  }
+  .secret-seeds .btn {
+    font-size: 0.9rem;
+  }
+  .header {
+    margin: 0 3rem;
+  }
+  .header p {
+    font-size: 0.8rem;
+  }
+  footer {
+    font-size: 0.5rem;
   }
 }/*# sourceMappingURL=main.css.map */
