@@ -80,9 +80,13 @@ body {
   width: 100%;
 }
 
-.seedCompleted {
-  border: 1px solid gold;
-  background-color: gold;
+.seedCompleted .btn {
+  background-color: green;
+  border: 1px solid green;
+}
+.seedCompleted .btn:hover {
+  background-color: rgb(30, 167, 30);
+  border: 1px solid rgb(30, 167, 30);
 }
 
 footer {
@@ -96,4 +100,10 @@ footer p:first-of-type {
 }
 footer a {
   text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .secret-seeds {
+    height: 58rem;
+  }
 }/*# sourceMappingURL=main.css.map */
